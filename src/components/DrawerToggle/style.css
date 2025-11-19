@@ -1,0 +1,59 @@
+:root {
+  --toggle-btn-size: 40px;
+  --toggle-transition: all .5s ease;
+}
+
+.toggle-btn {
+  position: relative;
+  align-items: center;
+  background-color: inherit;
+  border: 1px solid var(--main-txt);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+  height: var(--toggle-btn-size);
+  width: var(--toggle-btn-size);
+  z-index: 2 !important;
+}
+
+.line {
+  position: absolute;
+  left: 50%;
+  width: 28px;
+  height: 4px;
+  background-color: var(--main-txt);
+  border-radius: 4px;
+  transition: var(--toggle-transition);
+  transform: translateX(-50%);
+  transform-origin: center;
+}
+
+.line.top {
+  top: 6px;
+}
+
+.line.mid {
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.line.bottom {
+  bottom: 6px;
+}
+
+.toggle-btn.open .line.mid {
+  opacity: 0;
+}
+
+.toggle-btn.open .line.top {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.toggle-btn.open .line.bottom {
+  bottom: auto;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(225deg);
+}
