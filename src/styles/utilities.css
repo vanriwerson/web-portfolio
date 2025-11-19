@@ -1,0 +1,6 @@
+.pattern {
+  background-image: var(--bg-pattern);
+  background-size: 280px 280px;
+  background-repeat: repeat;
+  background-color: var(--main-bg);
+}
