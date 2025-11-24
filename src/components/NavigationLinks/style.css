@@ -1,0 +1,35 @@
+:root {
+  --nav-icon-size: 36px;
+}
+
+.nav-link {
+  border-radius: 8px;
+  color: var(--main-txt);
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  transition: all .5s ease;
+}
+
+.nav-link:hover {
+  background-color: var(--main-txt);
+  background-image: var(--bg-pattern);
+  border-radius: 8px;
+  color: var(--main-bg);
+}
+
+.nav-icon {
+  background-color: var(--main-txt);
+  border-radius: 8px;
+  height: var(--nav-icon-size);
+  margin: 8px;
+  padding: 4px;
+  width: var(--nav-icon-size);
+}
+
+@media screen and (max-width: 480px) {
+  .nav-link {
+    align-items: center;
+    display: flex;
+    font-size: 1.1rem;
+  }
+}
