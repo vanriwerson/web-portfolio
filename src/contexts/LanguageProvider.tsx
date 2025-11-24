@@ -24,14 +24,17 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   function translate(path: string): string {
     const keys = path.split('.');
-    let current: any = dictionaries[language];
+    let current: unknown = dictionaries[language];
 
     for (const key of keys) {
-      if (current[key] === undefined) return path;
-      current = current[key];
+      if (typeof current === 'object' && current !== null && key in current) {
+        current = (current as Record<string, unknown>)[key];
+      } else {
+        return path;
+      }
     }
 
-    return current;
+    return typeof current === 'string' ? current : path;
   }
 
   return (

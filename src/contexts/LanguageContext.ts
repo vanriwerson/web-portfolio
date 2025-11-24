@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 
-type Language = 'pt' | 'en' | 'fr';
+export type Language = 'pt' | 'en' | 'fr';
 
 export type LanguageContextType = {
   language: Language;
