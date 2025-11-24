@@ -17,11 +17,13 @@ body {
 
   --main-bg: #070707;
   --main-txt: #d5d5d5;
+  --accent: rgba(27, 69, 27, 0.5);
+  --accent-light: rgba(213, 213, 213, 0.3);
 
   --max-width: 1200px;
 
-  --shadow-deep: 0px 4px 12px rgba(27, 69, 27, 0.5);
-  --shadow-light: 0px 4px 8px rgba(213, 213, 213, 0.3);
+  --shadow-deep: 0px 4px 12px var(--accent);
+  --shadow-light: 0px 4px 8px var(--accent-light);
 
   --space-1: 4px;
   --space-2: 8px;
@@ -47,12 +49,22 @@ section {
   padding: var(--space-8) var(--space-4);
 }
 
+a,
+a:visited,
+a:active,
+a:focus {
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  outline: none;
+  user-select: none;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--accent-20);
+  background: var(--accent-light);
   border-radius: 4px;
 }
 
