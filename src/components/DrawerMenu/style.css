@@ -1,0 +1,30 @@
+.drawer-menu {
+  position: fixed;
+  top: var(--navbar-height);
+  right: -100%;
+  width: 100%;
+  height: 100vh;
+  padding: var(--space-8) var(--space-5);
+  background: var(--main-bg);
+  transition: right 0.4s ease, opacity 0.3s ease;
+  opacity: 0;
+  z-index: 7;
+}
+
+.drawer-menu.open {
+  right: 0;
+  opacity: 1;
+}
+
+.drawer-backdrop {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+}
+
+.drawer-links {
+  display: flex;
+  flex-direction: column;
+}
