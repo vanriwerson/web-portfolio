@@ -1,1 +1,1 @@
-export { default as DrawerToggle } from './DrawerToggle';
+export { default as NavBar } from './NavBar';

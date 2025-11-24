@@ -28,6 +28,9 @@ import testingLibrary from './images/skills/testing-library.png';
 import typescript from './images/skills/typescript.svg';
 import vuejs from './images/skills/vuejs.svg';
 
+import darkLogo from './logo/logo-dark.png';
+import lightLogo from './logo/logo-light.png';
+
 export const contact = {
   github,
   linkedin,
@@ -62,4 +65,9 @@ export const skillIcons = {
   testingLibrary,
   typescript,
   vuejs,
+};
+
+export const logos = {
+  dark: darkLogo,
+  light: lightLogo,
 };

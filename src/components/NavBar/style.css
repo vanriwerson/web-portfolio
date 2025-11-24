@@ -1,0 +1,32 @@
+.nav-container {
+  align-items: center;
+  box-shadow: var(--shadow-deep);
+  display: flex;
+  justify-content: space-between;
+}
+
+.links-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.nav-link {
+  border-radius: 8px;
+  color: var(--main-txt);
+  padding: 0.3rem 0.6rem;
+}
+
+.nav-link.active {
+  background-color: var(--main-txt);
+  background-image: var(--bg-pattern);
+  border-radius: 8px;
+  color: var(--main-bg);
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+}
+
+@media screen and (max-width: 480px) {
+  .links-container {
+    display: none !important;
+  }
+}

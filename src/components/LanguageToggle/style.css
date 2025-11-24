@@ -1,0 +1,39 @@
+.language-container {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  margin-right: 8px;
+}
+
+.language-btn {
+  background: transparent;
+  border: 1px solid #365d30;
+  border-radius: 6px;
+  color: inherit;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.2rem 0.4rem;
+  transition: all 0.25s ease;
+  user-select: none;
+}
+
+.language-btn:hover {
+  font-weight: 600;
+}
+
+.language-btn.active {
+  background-color: var(--main-txt);
+  background-image: var(--bg-pattern);
+  color: var(--main-bg);
+}
+
+@media (max-width: 480px) {
+  .language-container {
+    gap: 0.3rem;
+  }
+
+  .language-btn {
+    font-size: 0.75rem;
+  }
+}
