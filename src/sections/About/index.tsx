@@ -1,3 +1,4 @@
+import { SectionTitle } from '../../components';
 import { useLanguage } from '../../hooks';
 import './style.css';
 
@@ -8,7 +9,7 @@ export default function AboutSection() {
 
   return (
     <section id="about" className="about-section">
-      <h2 className="about-title">{translate('about.title')}</h2>
+      <SectionTitle title={translate('about.title')} />
 
       <div className="about-content">
         {paragraphs.map((text, index) => (
