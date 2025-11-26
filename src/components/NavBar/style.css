@@ -8,6 +8,9 @@
   display: flex;
   height: var(--navbar-height);
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }
 
 .bar-links {
