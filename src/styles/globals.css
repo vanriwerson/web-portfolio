@@ -37,6 +37,16 @@ body {
   --space-8: 64px;
 }
 
+a,
+a:visited,
+a:active,
+a:focus {
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  outline: none;
+  user-select: none;
+}
+
 body {
   background: var(--main-bg);
   color: var(--main-txt);
@@ -48,18 +58,16 @@ body {
 section {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: var(--space-8) var(--space-4);
+  min-height: 100vh;
+  padding: var(--space-8);
 }
 
-a,
-a:visited,
-a:active,
-a:focus {
-  -webkit-tap-highlight-color: transparent;
-  text-decoration: none;
-  outline: none;
-  user-select: none;
+@media screen and (max-width: 480px) {
+  section {
+    padding: var(--space-5);
+  }
 }
+
 
 ::-webkit-scrollbar {
   width: 8px;

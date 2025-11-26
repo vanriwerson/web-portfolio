@@ -4,3 +4,22 @@
   background-repeat: repeat;
   background-color: var(--main-bg);
 }
+
+.txt-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.txt-content {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  opacity: 0.9;
+  text-align: justify;
+}
+
+@media screen and (max-width: 480px) {
+  .txt-content {
+    font-size: 1rem;
+  }
+}

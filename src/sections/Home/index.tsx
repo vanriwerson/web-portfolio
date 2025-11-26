@@ -6,10 +6,10 @@ export default function HomeSection() {
   const { translate } = useLanguage();
 
   return (
-    <section id="home" className="home-section">
-      <div className="home-content">
-        <SectionTitle title={translate('home.title')} />
+    <section id="home">
+      <SectionTitle title={translate('home.title')} />
 
+      <div className="home-content">
         <p className="home-subtitle">{translate('home.subtitle')}</p>
 
         <button
