@@ -22,4 +22,9 @@ export default {
     content:
       'Je suis un développeur web full-stack maîtrisant ReactJS avec Material UI pour le front-end et NodeJS avec Express pour le back-end. J’ai également de l’expérience dans la conception et la mise en œuvre de bases de données relationnelles. \n J’ai eu l’occasion de travailler avec plusieurs langages de programmation tels que Java, Python, Golang, entre autres. J’ai aussi travaillé avec des bases de données non relationnelles comme MongoDB et Firebase — je considère qu’avoir une boîte à outils variée est essentiel, même si certaines technologies sont utilisées plus régulièrement que d’autres. \n J’ai une préférence naturelle pour le développement back-end, en particulier lorsqu’il implique des bases de données relationnelles. Malgré cela, en tant que développeur, je me vois surtout comme un résolveur de problèmes, peu importe d’où ils proviennent.',
   },
+  projects: {
+    title: 'Projets dont je suis fier',
+    content:
+      'Cette section regroupe des projets qui représentent mon niveau actuel en tant que développeur et ma manière d’aborder la conception logicielle. \n Chacun d’eux reflète des choix techniques réfléchis, avec une attention particulière portée à l’architecture, à la lisibilité et à la maintenabilité du code. \n Plus que des résultats finaux, ces projets traduisent mon engagement envers l’apprentissage continu, l’évolution professionnelle et la création de solutions solides et bien structurées.',
+  },
 };

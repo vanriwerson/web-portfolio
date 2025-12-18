@@ -3,24 +3,33 @@ import { DrawerMenu, NavBar } from './components';
 import { LanguageProvider } from './contexts';
 import './styles/globals.css';
 import './styles/utilities.css';
-import { AboutSection, HomeSection, SkillsSection } from './sections';
+import {
+  AboutSection,
+  HomeSection,
+  ProjectsSection,
+  SkillsSection,
+} from './sections';
 
 export default function App() {
   const [drawerOpen, setDrawerOpen] = useState<boolean>(false);
   const handleDrawerToggle = () => setDrawerOpen(!drawerOpen);
-  const handleDrawerClose = () => setDrawerOpen(false);
+  const handleCloseDrawer = () => setDrawerOpen(false);
 
   return (
     <LanguageProvider>
       <NavBar drawerOpen={drawerOpen} onToggle={handleDrawerToggle} />
 
-      <DrawerMenu open={drawerOpen} onClose={handleDrawerClose} />
+      <DrawerMenu open={drawerOpen} onClose={handleCloseDrawer} />
 
-      <HomeSection />
+      <main>
+        <HomeSection />
 
-      <AboutSection />
+        <AboutSection />
 
-      <SkillsSection />
+        <SkillsSection />
+
+        <ProjectsSection />
+      </main>
     </LanguageProvider>
   );
 }

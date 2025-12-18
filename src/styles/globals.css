@@ -55,6 +55,10 @@ body {
   text-align: center;
 }
 
+main {
+  padding-top: var(--navbar-height);
+}
+
 section {
   max-width: var(--max-width);
   margin: 0 auto;

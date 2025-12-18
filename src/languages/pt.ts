@@ -22,4 +22,9 @@ export default {
     content:
       'Sou um desenvolvedor web full-stack proficiente no uso de ReactJS com Material UI no front-end e NodeJS com Express no back-end. Também possuo experiência na modelagem e implementação de Banco de Dados Relacional. \n Já tive contato com diversas linguagens de programação como Java, Python, Golang, entre outras. Além disso, trabalhei com bancos de dados não relacionais, como MongoDB e Firebase — acredito que ter uma caixa de ferramentas variada é essencial, mesmo que algumas tecnologias sejam usadas com mais frequência do que outras. \n Tenho predileção pelo desenvolvimento back-end, principalmente envolvendo Bancos de Dados Relacionais. Ainda assim, como pessoa desenvolvedora, me vejo como um solucionador de problemas, independente da área onde eles surgem.',
   },
+  projects: {
+    title: 'Projetos de Orgulho',
+    content:
+      'Esta seção reúne projetos que representam meu momento atual como desenvolvedor e a forma como encaro a construção de software. \n Cada um deles reflete escolhas técnicas conscientes, preocupação com arquitetura, legibilidade e manutenção do código. \n Mais do que resultados finais, esses projetos simbolizam meu compromisso com aprendizado contínuo, evolução profissional e entrega de soluções sólidas e bem fundamentadas.',
+  },
 };
