@@ -1,8 +1,9 @@
 export interface Project {
+  id: string;
   stack: string[];
   prodLink?: string;
   repoLink: string;
-  thumbnail: string;
+  thumb: string;
 }
 
 export interface ProjectCardTranslation {
