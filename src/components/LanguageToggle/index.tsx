@@ -1,5 +1,7 @@
 import { useLanguage } from '../../hooks';
 import type { Language } from '../../contexts';
+// flag icons sourced from https://www.freeflagicons.com/
+import { flags } from '../../assets';
 import './style.css';
 
 export default function LanguageToggle() {
@@ -15,21 +17,21 @@ export default function LanguageToggle() {
         className={`language-btn ${language === 'pt' ? 'active' : ''}`}
         onClick={() => handleChangeLanguage('pt')}
       >
-        PT
+        <img src={flags.pt} alt="Portuguese flag" />
       </button>
 
       <button
         className={`language-btn ${language === 'en' ? 'active' : ''}`}
         onClick={() => handleChangeLanguage('en')}
       >
-        EN
+        <img src={flags.en} alt="English flag" />
       </button>
 
       <button
         className={`language-btn ${language === 'fr' ? 'active' : ''}`}
         onClick={() => handleChangeLanguage('fr')}
       >
-        FR
+        <img src={flags.fr} alt="French flag" />
       </button>
     </div>
   );

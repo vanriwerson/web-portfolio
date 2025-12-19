@@ -6,26 +6,30 @@
 }
 
 .language-btn {
+  align-items: center;
   background: transparent;
-  border: 1px solid #365d30;
-  border-radius: 6px;
-  color: inherit;
+  border: none;
+  border-radius: 50%;
   cursor: pointer;
-  font-size: 0.85rem;
-  font-weight: 500;
-  padding: 0.2rem 0.4rem;
+  display: flex;
+  height: 44px;
+  justify-content: center;
   transition: all 0.25s ease;
   user-select: none;
+  width: 44px;
+}
+
+.language-btn img {
+  width: 100%;
 }
 
 .language-btn:hover {
-  font-weight: 600;
+  opacity: 0.8;
 }
 
 .language-btn.active {
   background-color: var(--main-txt);
   background-image: var(--bg-pattern);
-  color: var(--main-bg);
 }
 
 @media (max-width: 480px) {

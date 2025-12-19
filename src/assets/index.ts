@@ -31,6 +31,10 @@ import vuejs from './images/skills/vuejs.svg';
 import darkLogo from './logo/logo-dark.png';
 import lightLogo from './logo/logo-light.png';
 
+import pt from './images/flags/brazil.png';
+import en from './images/flags/usa.png';
+import fr from './images/flags/france.png';
+
 export const contact = {
   github,
   linkedin,
@@ -70,4 +74,10 @@ export const skillIcons = {
 export const logos = {
   dark: darkLogo,
   light: lightLogo,
+};
+
+export const flags = {
+  pt,
+  en,
+  fr,
 };
