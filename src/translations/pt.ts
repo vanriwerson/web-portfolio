@@ -29,7 +29,7 @@ export default {
   },
   cards: {
     'admin-panel': {
-      title: 'Modelo de Painel Administrativo',
+      title: 'Painel Administrativo',
       description:
         'Template profissional de painel administrativo, desenvolvido para uso em ambiente real de trabalho. \n Estruturado para escalabilidade, manutenção e reaproveitamento, com foco em arquitetura limpa e boas práticas.',
     },
@@ -39,7 +39,7 @@ export default {
         'Jogo de Super Trunfo inspirado no universo de Kipo e os Animonstros. \n Implementa jogabilidade completa player vs IA, com controle de turnos, regras próprias e registro detalhado das ações. \n O projeto conta com testes unitários na camada de serviço, utilizando Vitest, reforçando a confiabilidade da lógica de jogo.',
     },
     'web-portfolio': {
-      title: 'Portfólio Web (este site)',
+      title: 'Portfólio Web',
       description:
         'Portfólio pessoal desenvolvido com React e TypeScript. \n Apresenta minha trajetória, habilidades e projetos, focado em arquitetura de front-end, internacionalização e experiência do usuário.',
     },

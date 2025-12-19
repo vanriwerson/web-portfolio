@@ -29,7 +29,7 @@ export default {
   },
   cards: {
     'admin-panel': {
-      title: 'Admin Panel Template',
+      title: 'Admin Panel',
       description:
         'Professional administrative panel template developed for real-world production use. \n Designed with scalability, maintainability and reuse in mind, following clean architecture principles and best practices.',
     },
@@ -39,7 +39,7 @@ export default {
         'Super Trumps game inspired by the Kipo and the Age of Wonderbeasts universe. \n Implements full player vs AI gameplay, with turn control, custom rules and detailed action logging. \n The project includes unit tests in the service layer using Vitest, reinforcing the reliability of the game logic.',
     },
     'web-portfolio': {
-      title: 'Web Portfolio (this site)',
+      title: 'Web Portfolio',
       description:
         'Personal web portfolio built with React and TypeScript. \n Showcases my background, skills and projects, focusing on front-end architecture, internationalization and user experience.',
     },

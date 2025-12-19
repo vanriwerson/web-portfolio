@@ -29,7 +29,7 @@ export default {
   },
   cards: {
     'admin-panel': {
-      title: 'Modèle de Panneau Administratif',
+      title: 'Panneau Administratif',
       description:
         'Modèle professionnel de panneau administratif développé pour un usage réel en environnement de production. \n Conçu pour la scalabilité, la maintenance et la réutilisation, avec un fort accent sur l’architecture propre et les bonnes pratiques.',
     },
@@ -39,7 +39,7 @@ export default {
         'Jeu de Super Atout inspiré de l’univers de Kipo et les Animonstres. \n Implémente une jouabilité complète joueur contre IA, avec gestion des tours, règles personnalisées et journalisation détaillée des actions. \n Le projet inclut des tests unitaires sur la couche service à l’aide de Vitest, renforçant la fiabilité de la logique du jeu.',
     },
     'web-portfolio': {
-      title: 'Portfolio Web (ce site)',
+      title: 'Portfolio Web',
       description:
         'Portfolio personnel développé avec React et TypeScript. \n Présente mon parcours, mes compétences et mes projets, en mettant l’accent sur l’architecture front-end, l’internationalisation et l’expérience utilisateur.',
     },
