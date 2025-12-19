@@ -1,5 +1,6 @@
 import { useLanguage } from '../../hooks';
-import type { Language } from '../../contexts';
+import type { Language } from '../../interfaces';
+
 // flag icons sourced from https://www.freeflagicons.com/
 import { flags } from '../../assets';
 import './style.css';

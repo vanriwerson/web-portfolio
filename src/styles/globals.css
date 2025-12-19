@@ -40,7 +40,10 @@ body {
 a,
 a:visited,
 a:active,
-a:focus {
+a:focus,
+button,
+button:active,
+button:focus {
   -webkit-tap-highlight-color: transparent;
   text-decoration: none;
   outline: none;
@@ -59,7 +62,7 @@ section {
   max-width: var(--max-width);
   margin: 0 auto;
   min-height: 100vh;
-  padding: var(--space-8);
+  padding: var(--space-7);
 }
 
 @media screen and (max-width: 480px) {
