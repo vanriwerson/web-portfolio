@@ -35,6 +35,10 @@ import pt from './images/flags/brazil.png';
 import en from './images/flags/usa.png';
 import fr from './images/flags/france.png';
 
+import adminPanel from './images/projects/admin-panel.png';
+import superTrumps from './images/projects/super-trumps.png';
+import webPortfolio from './images/projects/web-portfolio.png';
+
 export const contact = {
   github,
   linkedin,
@@ -80,4 +84,10 @@ export const flags = {
   pt,
   en,
   fr,
+};
+
+export const thumbs = {
+  adminPanel,
+  superTrumps,
+  webPortfolio,
 };
