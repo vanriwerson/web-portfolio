@@ -27,4 +27,21 @@ export default {
     content:
       'Cette section regroupe des projets qui représentent mon niveau actuel en tant que développeur et ma manière d’aborder la conception logicielle. \n Chacun d’eux reflète des choix techniques réfléchis, avec une attention particulière portée à l’architecture, à la lisibilité et à la maintenabilité du code. \n Plus que des résultats finaux, ces projets traduisent mon engagement envers l’apprentissage continu, l’évolution professionnelle et la création de solutions solides et bien structurées.',
   },
+  cards: {
+    'admin-panel': {
+      title: 'Modèle de Panneau Administratif',
+      description:
+        'Modèle professionnel de panneau administratif développé pour un usage réel en environnement de production. \n Conçu pour la scalabilité, la maintenance et la réutilisation, avec un fort accent sur l’architecture propre et les bonnes pratiques.',
+    },
+    'kipo-trumps': {
+      title: 'Kipo Super Trumps',
+      description:
+        'Jeu de Super Trumps inspiré de l’univers de Kipo et les Âges des Wonderbeasts. \n Propose une jouabilité complète joueur contre IA, avec gestion des tours, règles personnalisées et journal détaillé des actions.',
+    },
+    'web-portfolio': {
+      title: 'Portfolio Web (ce site)',
+      description:
+        'Portfolio personnel développé avec React et TypeScript. \n Présente mon parcours, mes compétences et mes projets, en mettant l’accent sur l’architecture front-end, l’internationalisation et l’expérience utilisateur.',
+    },
+  },
 };

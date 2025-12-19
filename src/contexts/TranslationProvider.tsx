@@ -1,19 +1,19 @@
 import { useEffect, useState } from 'react';
-import { LanguageContext, type LanguageContextType } from './LanguageContext';
-import pt from '../languages/pt';
-import en from '../languages/en';
-import fr from '../languages/fr';
+import type { Language } from '../interfaces';
+import { pt, en, fr } from '../translations';
+import { TranslationContext } from './TranslationContext';
 
-type Language = LanguageContextType['language'];
-type Translations = typeof pt;
-
-const dictionaries: Record<Language, Translations> = {
+const dictionaries: Record<Language, unknown> = {
   pt,
   en,
   fr,
 };
 
-export function LanguageProvider({ children }: { children: React.ReactNode }) {
+export default function TranslationProvider({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const [language, setLanguage] = useState<Language>(() => {
     return (localStorage.getItem('language') as Language) || 'pt';
   });
@@ -38,8 +38,8 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <LanguageContext.Provider value={{ language, translate, setLanguage }}>
+    <TranslationContext.Provider value={{ language, translate, setLanguage }}>
       {children}
-    </LanguageContext.Provider>
+    </TranslationContext.Provider>
   );
 }

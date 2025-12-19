@@ -27,4 +27,21 @@ export default {
     content:
       'This section brings together projects that represent my current stage as a developer and the way I approach software construction. \n Each one reflects conscious technical decisions, with attention to architecture, code readability, and long-term maintainability. \n More than final results, these projects express my commitment to continuous learning, professional growth, and building solid, well-founded solutions.',
   },
+  cards: {
+    'admin-panel': {
+      title: 'Admin Panel Template',
+      description:
+        'Professional administrative panel template developed for real-world production use. \n Designed with scalability, maintainability and reuse in mind, following clean architecture principles and best practices.',
+    },
+    'kipo-trumps': {
+      title: 'Kipo Super Trumps',
+      description:
+        'Super Trumps game inspired by the Kipo and the Age of Wonderbeasts universe. \n Features full player vs AI gameplay, including turn control, custom rules and detailed action logs.',
+    },
+    'web-portfolio': {
+      title: 'Web Portfolio (this site)',
+      description:
+        'Personal web portfolio built with React and TypeScript. \n Showcases my background, skills and projects, focusing on front-end architecture, internationalization and user experience.',
+    },
+  },
 };

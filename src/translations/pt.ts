@@ -27,4 +27,21 @@ export default {
     content:
       'Esta seção reúne projetos que representam meu momento atual como desenvolvedor e a forma como encaro a construção de software. \n Cada um deles reflete escolhas técnicas conscientes, preocupação com arquitetura, legibilidade e manutenção do código. \n Mais do que resultados finais, esses projetos simbolizam meu compromisso com aprendizado contínuo, evolução profissional e entrega de soluções sólidas e bem fundamentadas.',
   },
+  cards: {
+    'admin-panel': {
+      title: 'Modelo de Painel Administrativo',
+      description:
+        'Template profissional de painel administrativo, desenvolvido para uso em ambiente real de trabalho. \n Estruturado para escalabilidade, manutenção e reaproveitamento, com foco em arquitetura limpa e boas práticas.',
+    },
+    'kipo-trumps': {
+      title: 'Kipo Super Trunfo',
+      description:
+        'Jogo de Super Trunfo inspirado no universo de Kipo e os Animonstros. \n Implementa jogabilidade completa player vs IA, com controle de turnos, regras próprias e registro detalhado das ações.',
+    },
+    'web-portfolio': {
+      title: 'Portfólio Web (este site)',
+      description:
+        'Portfólio pessoal desenvolvido com React e TypeScript. \n Apresenta minha trajetória, habilidades e projetos, focado em arquitetura de front-end, internacionalização e experiência do usuário.',
+    },
+  },
 };

@@ -1,3 +1,2 @@
-export type { Language } from './LanguageContext';
-export { LanguageContext } from './LanguageContext';
-export { LanguageProvider } from './LanguageProvider';
+export { TranslationContext } from './TranslationContext';
+export { default as TranslationProvider } from './TranslationProvider';

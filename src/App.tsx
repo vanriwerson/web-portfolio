@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { DrawerMenu, NavBar, SectionDivider } from './components';
-import { LanguageProvider } from './contexts';
+import { TranslationProvider } from './contexts';
 import './styles/globals.css';
 import './styles/utilities.css';
 import {
@@ -16,7 +16,7 @@ export default function App() {
   const handleCloseDrawer = () => setDrawerOpen(false);
 
   return (
-    <LanguageProvider>
+    <TranslationProvider>
       <NavBar drawerOpen={drawerOpen} onToggle={handleDrawerToggle} />
 
       <DrawerMenu open={drawerOpen} onClose={handleCloseDrawer} />
@@ -34,6 +34,6 @@ export default function App() {
         <SectionDivider anchorRef="projects" />
         <ProjectsSection />
       </main>
-    </LanguageProvider>
+    </TranslationProvider>
   );
 }
