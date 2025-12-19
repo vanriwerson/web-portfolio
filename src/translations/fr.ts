@@ -36,7 +36,7 @@ export default {
     'kipo-trumps': {
       title: 'Kipo Super Trumps',
       description:
-        'Jeu de Super Trumps inspiré de l’univers de Kipo et les Âges des Wonderbeasts. \n Propose une jouabilité complète joueur contre IA, avec gestion des tours, règles personnalisées et journal détaillé des actions.',
+        'Jeu de Super Atout inspiré de l’univers de Kipo et les Animonstres. \n Implémente une jouabilité complète joueur contre IA, avec gestion des tours, règles personnalisées et journalisation détaillée des actions. \n Le projet inclut des tests unitaires sur la couche service à l’aide de Vitest, renforçant la fiabilité de la logique du jeu.',
     },
     'web-portfolio': {
       title: 'Portfolio Web (ce site)',

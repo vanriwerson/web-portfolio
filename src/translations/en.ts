@@ -36,7 +36,7 @@ export default {
     'kipo-trumps': {
       title: 'Kipo Super Trumps',
       description:
-        'Super Trumps game inspired by the Kipo and the Age of Wonderbeasts universe. \n Features full player vs AI gameplay, including turn control, custom rules and detailed action logs.',
+        'Super Trumps game inspired by the Kipo and the Age of Wonderbeasts universe. \n Implements full player vs AI gameplay, with turn control, custom rules and detailed action logging. \n The project includes unit tests in the service layer using Vitest, reinforcing the reliability of the game logic.',
     },
     'web-portfolio': {
       title: 'Web Portfolio (this site)',

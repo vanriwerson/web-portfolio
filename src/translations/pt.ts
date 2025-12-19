@@ -36,7 +36,7 @@ export default {
     'kipo-trumps': {
       title: 'Kipo Super Trunfo',
       description:
-        'Jogo de Super Trunfo inspirado no universo de Kipo e os Animonstros. \n Implementa jogabilidade completa player vs IA, com controle de turnos, regras próprias e registro detalhado das ações.',
+        'Jogo de Super Trunfo inspirado no universo de Kipo e os Animonstros. \n Implementa jogabilidade completa player vs IA, com controle de turnos, regras próprias e registro detalhado das ações. \n O projeto conta com testes unitários na camada de serviço, utilizando Vitest, reforçando a confiabilidade da lógica de jogo.',
     },
     'web-portfolio': {
       title: 'Portfólio Web (este site)',
