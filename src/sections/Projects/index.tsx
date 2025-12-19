@@ -1,5 +1,7 @@
-import { SectionTitle } from '../../components';
+import { ProjectCard, SectionTitle } from '../../components';
 import { useLanguage } from '../../hooks';
+import { staticProjects } from '../../services/data';
+import './style.css';
 
 export default function ProjectsSection() {
   const { translate } = useLanguage();
@@ -18,10 +20,11 @@ export default function ProjectsSection() {
         ))}
       </div>
 
-      {/* 
-        Aqui futuramente entram os cards de projetos:
-        <ProjectsGrid />
-      */}
+      <div className="projects-grid">
+        {staticProjects.map((project) => (
+          <ProjectCard key={project.id} project={project} />
+        ))}
+      </div>
     </section>
   );
 }
