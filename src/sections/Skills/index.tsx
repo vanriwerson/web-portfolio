@@ -7,7 +7,7 @@ export default function SkillsSection() {
   const paragraphs = translate('skills.content').split(' \n ');
 
   return (
-    <section id="skills">
+    <section>
       <SectionTitle title={translate('skills.title')} />
 
       <div className="txt-wrapper">

@@ -6,7 +6,7 @@ export default function HomeSection() {
   const { translate } = useLanguage();
 
   return (
-    <section id="home">
+    <section>
       <SectionTitle title={translate('home.title')} />
 
       <div className="home-content">

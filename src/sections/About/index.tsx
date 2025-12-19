@@ -7,7 +7,7 @@ export default function AboutSection() {
   const paragraphs = translate('about.content').split(' \n ');
 
   return (
-    <section id="about">
+    <section>
       <SectionTitle title={translate('about.title')} />
 
       <div className="txt-wrapper">

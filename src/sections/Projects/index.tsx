@@ -7,7 +7,7 @@ export default function ProjectsSection() {
   const paragraphs = translate('projects.content').split(' \n ');
 
   return (
-    <section id="projects" className="projects-section">
+    <section>
       <SectionTitle title={translate('projects.title')} />
 
       <div className="txt-wrapper">
