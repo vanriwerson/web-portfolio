@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { DrawerMenu, NavBar } from './components';
+import { DrawerMenu, NavBar, SectionDivider } from './components';
 import { LanguageProvider } from './contexts';
 import './styles/globals.css';
 import './styles/utilities.css';
@@ -22,12 +22,16 @@ export default function App() {
       <DrawerMenu open={drawerOpen} onClose={handleCloseDrawer} />
 
       <main>
+        <SectionDivider anchorRef="home" />
         <HomeSection />
 
+        <SectionDivider anchorRef="about" />
         <AboutSection />
 
+        <SectionDivider anchorRef="skills" />
         <SkillsSection />
 
+        <SectionDivider anchorRef="projects" />
         <ProjectsSection />
       </main>
     </LanguageProvider>
