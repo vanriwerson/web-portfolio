@@ -1,0 +1,21 @@
+.carousel-container {
+  align-items: center;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+  box-shadow: var(--shadow-deep);
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin: 0 auto var(--space-5) auto;
+  min-width: 320px;
+  width: fit-content;
+}
+
+.carousel-track {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  height: 100%;
+  justify-content: flex-start;
+  overflow: hidden;
+  width: 100%;
+}

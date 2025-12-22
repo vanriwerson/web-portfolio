@@ -1,0 +1,160 @@
+:root {
+  --animation-duration: 1.2s;
+
+  --skill-icon-sm: 16px;
+  --skill-icon-md: 36px;
+  --skill-icon-lg: 76px;
+
+  --skill-icon-wrapper-size: 60px;
+}
+
+.skill-icon-wrapper {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: var(--skill-icon-wrapper-size);
+  justify-content: center;
+  width: var(--skill-icon-wrapper-size);
+}
+
+.skill-icon {
+  height: var(--skill-icon-sm);
+  opacity: 0.5;
+  width: var(--skill-icon-sm);
+}
+
+.slide {
+  animation: slide var(--animation-duration) ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.enter-screen {
+  animation: iconIn var(--animation-duration) ease-in-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.grow-md {
+  animation: growMd var(--animation-duration) ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.grow-center {
+  animation: growLg var(--animation-duration) ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.shrink-md {
+  animation: shrinkMd var(--animation-duration) ease-in-out;
+  animation-fill-mode: forwards;
+  height: var(--skill-icon-lg);
+  opacity: 1;
+  width: var(--skill-icon-lg);
+}
+
+.shrink-sm {
+  animation: shrinkSm var(--animation-duration) ease-in-out;
+  animation-fill-mode: forwards;
+  height: var(--skill-icon-md);
+  width: var(--skill-icon-md);
+}
+
+.leave-screen {
+  animation: iconOut var(--animation-duration) ease-in-out;
+  animation-fill-mode: forwards;
+  opacity: 0.5;
+}
+
+@keyframes iconIn {
+  0% {
+    opacity: 0;
+    transform: translateX(0px);
+  }
+
+  100% {
+    opacity: 0.5;
+    transform: translateX(-60px);
+  }
+}
+
+@keyframes growMd {
+  0% {
+    height: var(--skill-icon-sm);
+    transform: translateX(0px);
+    width: var(--skill-icon-sm);
+  }
+
+  100% {
+    height: var(--skill-icon-md);
+    transform: translateX(-60px);
+    width: var(--skill-icon-md);
+  }
+}
+
+@keyframes growLg {
+  0% {
+    height: var(--skill-icon-md);
+    opacity: 0.5;
+    transform: translateX(0px);
+    width: var(--skill-icon-md);
+  }
+
+  100% {
+    height: var(--skill-icon-lg);
+    opacity: 1;
+    transform: translateX(-60px);
+    width: var(--skill-icon-lg);
+  }
+}
+
+@keyframes shrinkMd {
+  0% {
+    height: var(--skill-icon-lg);
+    opacity: 1;
+    transform: translateX(0px);
+    width: var(--skill-icon-lg);
+  }
+
+  100% {
+    height: var(--skill-icon-md);
+    opacity: 0.5;
+    transform: translateX(-60px);
+    width: var(--skill-icon-md);
+  }
+}
+
+@keyframes shrinkSm {
+  0% {
+    height: var(--skill-icon-md);
+    transform: translateX(0px);
+    width: var(--skill-icon-md);
+  }
+
+  100% {
+    height: var(--skill-icon-sm);
+    transform: translateX(-60px);
+    width: var(--skill-icon-sm);
+  }
+}
+
+@keyframes iconOut {
+  0% {
+    opacity: 0.5;
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-60px);
+  }
+}
