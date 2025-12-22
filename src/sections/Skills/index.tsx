@@ -1,4 +1,4 @@
-import { SectionTitle } from '../../components';
+import { SectionTitle, SkillsCarousel } from '../../components';
 import { useLanguage } from '../../hooks';
 
 export default function SkillsSection() {
@@ -9,6 +9,8 @@ export default function SkillsSection() {
   return (
     <section>
       <SectionTitle title={translate('skills.title')} />
+
+      <SkillsCarousel />
 
       <div className="txt-wrapper">
         {paragraphs.map((text, index) => (
