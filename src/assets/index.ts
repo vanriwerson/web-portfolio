@@ -26,6 +26,7 @@ import react from './images/skills/react.svg';
 import redux from './images/skills/redux.svg';
 import testingLibrary from './images/skills/testing-library.png';
 import typescript from './images/skills/typescript.svg';
+import vitest from './images/skills/vitest.svg';
 import vuejs from './images/skills/vuejs.svg';
 
 import darkLogo from './logo/logo-dark.png';
@@ -72,6 +73,7 @@ export const skillIcons = {
   redux,
   testingLibrary,
   typescript,
+  vitest,
   vuejs,
 };
 
