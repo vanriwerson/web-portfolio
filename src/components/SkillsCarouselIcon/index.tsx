@@ -1,3 +1,4 @@
+import { useLanguage } from '../../hooks';
 import type { CarouselIcon } from '../../interfaces/CarouselIcon';
 import './style.css';
 
@@ -10,6 +11,8 @@ export default function SkillsCarouselIcon({
   icon,
   className = '',
 }: SkillsCarouselIconProps) {
+  const { translate } = useLanguage();
+
   return (
     <a
       href={icon.doc}
@@ -17,7 +20,7 @@ export default function SkillsCarouselIcon({
       rel="noopener noreferrer"
       className="skill-icon-wrapper"
       aria-label={`${icon.alt} logo`}
-      title={`${icon.alt}: ${icon.summary}`}
+      title={`${icon.alt}: ${translate(icon.summary)}`}
     >
       <img
         className={`skill-icon ${className}`}

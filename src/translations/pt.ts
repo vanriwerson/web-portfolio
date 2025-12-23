@@ -21,6 +21,43 @@ export default {
     title: 'Habilidades',
     content:
       'Sou um desenvolvedor web full-stack proficiente no uso de ReactJS com Material UI no front-end e NodeJS com Express no back-end. Também possuo experiência na modelagem e implementação de Banco de Dados Relacional. \n Já tive contato com diversas linguagens de programação como Java, Python, Golang, entre outras. Além disso, trabalhei com bancos de dados não relacionais, como MongoDB e Firebase — acredito que ter uma caixa de ferramentas variada é essencial, mesmo que algumas tecnologias sejam usadas com mais frequência do que outras. \n Tenho predileção pelo desenvolvimento back-end, principalmente envolvendo Bancos de Dados Relacionais. Ainda assim, como pessoa desenvolvedora, me vejo como um solucionador de problemas, independente da área onde eles surgem.',
+    carouselSummaries: {
+      git: 'Sistema de controle de versão distribuído amplamente utilizado. Permite o gerenciamento de projetos de forma colaborativa.',
+      html: 'Linguagem de marcação usada para estruturar e apresentar conteúdo. É a base de qualquer página da web.',
+      css: 'Linguagem de estilo usada para definir a aparência e o layout dos elementos em uma página da web.',
+      javascript:
+        'Linguagem de programação usada para adicionar interatividade e comportamentos à páginas da web. Também é amplamente utilizado no desenvolvimento de aplicativos web.',
+      react:
+        'Biblioteca JavaScript de código aberto para criar interfaces de usuário. É amplamente utilizado para desenvolvimento de aplicativos web de página única (SPA).',
+      vuejs:
+        'Framework JavaScript progressivo para construir interfaces de usuário. É flexível e eficiente para a criação de aplicativos web interativos.',
+      redux:
+        'Biblioteca de gerenciamento de estado para aplicativos JavaScript. É comumente usado com bibliotecas e frameworks como React ou Angular.',
+      jest: 'Framework de teste de JavaScript com foco na simplicidade. É usado para testar aplicativos e bibliotecas JavaScript.',
+      testingLibrary:
+        'Conjunto de bibliotecas para escrever testes de JavaScript mais legíveis e sustentáveis. Ela promove uma abordagem centrada no usuário para testes.',
+      typescript:
+        'Linguagem de programação de código aberto que é um superconjunto de JavaScript. Adiciona tipagem estática opcional e outros recursos ao JavaScript.',
+      docker:
+        'Plataforma de contêiner que permite criar, implantar e executar aplicativos de forma isolada. Facilita a implantação de aplicativos em diferentes ambientes.',
+      nodejs:
+        'Ambiente de tempo de execução JavaScript que permite executar JavaScript fora do navegador. É usado para criar aplicativos de servidor e ferramentas de linha de comando.',
+      golang:
+        'Linguagem de programação de código aberto criada pelo Google. É conhecida por sua simplicidade, eficiência e desempenho.',
+      java: 'Linguagem de programação de propósito geral amplamente usada. É conhecida por sua portabilidade, segurança e robustez.',
+      python:
+        'Linguagem de programação de alto nível com uma sintaxe simples e legível. É usada em vários domínios, desde desenvolvimento web até ciência de dados.',
+      mysql:
+        'Sistema de gerenciamento de banco de dados relacional amplamente utilizado. É conhecido por sua confiabilidade, escalabilidade e facilidade de uso.',
+      mongodb:
+        'Banco de dados NoSQL orientado a documentos. É escalável, flexível e permite o armazenamento de dados sem a necessidade de um esquema fixo.',
+      linux:
+        'Sistema operacional de código aberto conhecido por sua estabilidade, segurança e flexibilidade, sendo usado em servidores, dispositivos embarcados e muito mais.',
+      dotnet:
+        'Plataforma de desenvolvimento mantida pela Microsoft para criação de aplicações robustas e escaláveis. Suporta múltiplas linguagens, como C#, e é amplamente utilizada no desenvolvimento de APIs, aplicações web, desktop e serviços.',
+      vitest:
+        'Framework de testes unitários rápido e moderno, integrado ao ecossistema Vite. Oferece API compatível com Jest, execução paralela e excelente suporte a TypeScript.',
+    },
   },
   projects: {
     title: 'Projetos de Orgulho',

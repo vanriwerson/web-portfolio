@@ -21,6 +21,43 @@ export default {
     title: 'Skills',
     content:
       'I am a full-stack web developer proficient in ReactJS with Material UI on the front-end and NodeJS with Express on the back-end. I also have experience designing and implementing relational databases. \n I have worked with several programming languages such as Java, Python, Golang, and more. I have also had experience with non-relational databases like MongoDB and Firebase — I believe that having a diverse toolbox is essential, even if some technologies are used more often than others. \n I have a natural preference for back-end development, especially when it involves relational databases. Still, as a developer, I see myself primarily as a problem-solver, regardless of where the challenges appear.',
+    carouselSummaries: {
+      git: 'Distributed version control system widely used for collaborative software development.',
+      html: 'Markup language used to structure and present content on the web. It is the foundation of web pages.',
+      css: 'Style sheet language used to describe the presentation and layout of web pages.',
+      javascript:
+        'Programming language used to add interactivity and dynamic behavior to web applications.',
+      react:
+        'Open-source JavaScript library for building user interfaces, especially single-page applications.',
+      vuejs:
+        'Progressive JavaScript framework for building interactive and flexible user interfaces.',
+      redux:
+        'State management library commonly used with JavaScript frameworks like React.',
+      jest: 'JavaScript testing framework focused on simplicity and reliability.',
+      testingLibrary:
+        'Collection of testing utilities that encourage testing applications from the user’s perspective.',
+      typescript:
+        'Open-source programming language that adds static typing and advanced features to JavaScript.',
+      docker:
+        'Containerization platform that enables building, shipping, and running applications in isolated environments.',
+      nodejs:
+        'JavaScript runtime that allows executing JavaScript outside the browser, commonly used for backend development.',
+      golang:
+        'Programming language developed by Google, known for its simplicity, performance, and concurrency support.',
+      java: 'General-purpose programming language widely used for building robust, secure, and portable applications.',
+      python:
+        'High-level programming language known for its readability and versatility across multiple domains.',
+      mysql:
+        'Popular relational database management system known for reliability and ease of use.',
+      mongodb:
+        'NoSQL document-oriented database designed for scalability and flexible data models.',
+      linux:
+        'Open-source operating system known for stability, security, and wide usage in servers and embedded systems.',
+      dotnet:
+        'Microsoft-maintained development platform for building scalable applications using multiple languages such as C#.',
+      vitest:
+        'Fast and modern unit testing framework integrated with the Vite ecosystem, with strong TypeScript support.',
+    },
   },
   projects: {
     title: 'Proud Projects',

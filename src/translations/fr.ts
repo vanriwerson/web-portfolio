@@ -21,6 +21,43 @@ export default {
     title: 'Compétences',
     content:
       'Je suis un développeur web full-stack maîtrisant ReactJS avec Material UI pour le front-end et NodeJS avec Express pour le back-end. J’ai également de l’expérience dans la conception et la mise en œuvre de bases de données relationnelles. \n J’ai eu l’occasion de travailler avec plusieurs langages de programmation tels que Java, Python, Golang, entre autres. J’ai aussi travaillé avec des bases de données non relationnelles comme MongoDB et Firebase — je considère qu’avoir une boîte à outils variée est essentiel, même si certaines technologies sont utilisées plus régulièrement que d’autres. \n J’ai une préférence naturelle pour le développement back-end, en particulier lorsqu’il implique des bases de données relationnelles. Malgré cela, en tant que développeur, je me vois surtout comme un résolveur de problèmes, peu importe d’où ils proviennent.',
+    carouselSummaries: {
+      git: 'Système de contrôle de version distribué largement utilisé pour le développement collaboratif.',
+      html: 'Langage de balisage utilisé pour structurer et présenter le contenu sur le web.',
+      css: 'Langage de feuilles de style permettant de définir l’apparence et la mise en page des pages web.',
+      javascript:
+        'Langage de programmation utilisé pour ajouter de l’interactivité et des comportements dynamiques aux applications web.',
+      react:
+        'Bibliothèque JavaScript open source pour la création d’interfaces utilisateur, notamment des applications monopage.',
+      vuejs:
+        'Framework JavaScript progressif pour construire des interfaces utilisateur interactives et flexibles.',
+      redux:
+        'Bibliothèque de gestion d’état couramment utilisée avec des frameworks JavaScript comme React.',
+      jest: 'Framework de tests JavaScript axé sur la simplicité et la fiabilité.',
+      testingLibrary:
+        'Ensemble d’outils de test favorisant une approche centrée sur l’utilisateur.',
+      typescript:
+        'Langage de programmation open source qui ajoute le typage statique et des fonctionnalités avancées à JavaScript.',
+      docker:
+        'Plateforme de conteneurisation permettant de créer, déployer et exécuter des applications de manière isolée.',
+      nodejs:
+        'Environnement d’exécution JavaScript permettant d’exécuter du JavaScript en dehors du navigateur.',
+      golang:
+        'Langage de programmation développé par Google, reconnu pour sa simplicité et ses performances.',
+      java: 'Langage de programmation polyvalent largement utilisé pour créer des applications robustes et sécurisées.',
+      python:
+        'Langage de programmation de haut niveau réputé pour sa lisibilité et sa polyvalence.',
+      mysql:
+        'Système de gestion de base de données relationnelle populaire, reconnu pour sa fiabilité.',
+      mongodb:
+        'Base de données NoSQL orientée documents, conçue pour la scalabilité et la flexibilité des données.',
+      linux:
+        'Système d’exploitation open source reconnu pour sa stabilité, sa sécurité et son usage sur les serveurs.',
+      dotnet:
+        'Plateforme de développement maintenue par Microsoft pour créer des applications évolutives avec plusieurs langages.',
+      vitest:
+        'Framework de tests unitaires moderne et rapide, intégré à l’écosystème Vite, avec un excellent support TypeScript.',
+    },
   },
   projects: {
     title: 'Projets dont je suis fier',

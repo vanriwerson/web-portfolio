@@ -20,6 +20,7 @@ export interface Translation {
   skills: {
     title: string;
     content: string;
+    carouselSummaries: Record<string, string>;
   };
   projects: {
     title: string;
