@@ -22,7 +22,7 @@ body {
   --accent: rgba(27, 69, 27, 0.5);
   --accent-light: rgba(213, 213, 213, 0.3);
 
-  --max-width: 1200px;
+  --max-width: 1080px;
 
   --shadow-deep: 0px 4px 12px var(--accent);
   --shadow-light: 0px 4px 8px var(--accent-light);
