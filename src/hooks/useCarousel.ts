@@ -7,7 +7,7 @@ const SCREEN_WIDTH = {
   LG: 840,
 };
 
-const ICON_WRAPPER_SIZE = 60;
+const ICON_WRAPPER_SIZE = 68;
 const CAROUSEL_REFRESH_INTERVAL = 2400;
 
 export function useCarousel() {

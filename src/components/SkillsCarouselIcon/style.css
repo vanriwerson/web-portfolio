@@ -1,11 +1,12 @@
 :root {
   --animation-duration: 1.2s;
+  --icons-translate-x: -68px;
 
-  --skill-icon-sm: 16px;
-  --skill-icon-md: 36px;
+  --skill-icon-sm: 20px;
+  --skill-icon-md: 40px;
   --skill-icon-lg: 76px;
 
-  --skill-icon-wrapper-size: 60px;
+  --skill-icon-wrapper-size: 68px;
 }
 
 .skill-icon-wrapper {
@@ -73,7 +74,7 @@
 
   100% {
     opacity: 0.5;
-    transform: translateX(-60px);
+    transform: translateX(var(--icons-translate-x));
   }
 }
 
@@ -86,7 +87,7 @@
 
   100% {
     height: var(--skill-icon-md);
-    transform: translateX(-60px);
+    transform: translateX(var(--icons-translate-x));
     width: var(--skill-icon-md);
   }
 }
@@ -102,7 +103,7 @@
   100% {
     height: var(--skill-icon-lg);
     opacity: 1;
-    transform: translateX(-60px);
+    transform: translateX(var(--icons-translate-x));
     width: var(--skill-icon-lg);
   }
 }
@@ -118,7 +119,7 @@
   100% {
     height: var(--skill-icon-md);
     opacity: 0.5;
-    transform: translateX(-60px);
+    transform: translateX(var(--icons-translate-x));
     width: var(--skill-icon-md);
   }
 }
@@ -132,7 +133,7 @@
 
   100% {
     height: var(--skill-icon-sm);
-    transform: translateX(-60px);
+    transform: translateX(var(--icons-translate-x));
     width: var(--skill-icon-sm);
   }
 }
@@ -145,7 +146,7 @@
 
   100% {
     opacity: 0;
-    transform: translateX(-60px);
+    transform: translateX(var(--icons-translate-x));
   }
 }
 
@@ -155,6 +156,6 @@
   }
 
   100% {
-    transform: translateX(-60px);
+    transform: translateX(var(--icons-translate-x));
   }
 }
