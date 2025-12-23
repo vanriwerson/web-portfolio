@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { DrawerMenu, NavBar, SectionDivider } from './components';
+import { DrawerMenu, Footer, NavBar, SectionDivider } from './components';
 import { TranslationProvider } from './contexts';
 import './styles/globals.css';
 import './styles/utilities.css';
@@ -33,6 +33,8 @@ export default function App() {
 
         <SectionDivider anchorRef="projects" />
         <ProjectsSection />
+
+        <Footer />
       </main>
     </TranslationProvider>
   );

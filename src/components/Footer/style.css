@@ -1,0 +1,15 @@
+.footer-container {
+  align-items: center;
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+  padding: var(--space-4);
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 540px;
+  width: 100%;
+}

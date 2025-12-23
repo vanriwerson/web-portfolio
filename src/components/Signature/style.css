@@ -1,0 +1,16 @@
+.signature {
+  align-content: center;
+  background-color: var(--main-bg);
+  border: 1px solid var(--main-txt);
+  border-radius: 8px;
+  color: var(--main-txt);
+  height: 32px;
+  min-width: 320px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.signature:hover {
+  opacity: 0.3;
+  transform: scale(1.1);
+}
