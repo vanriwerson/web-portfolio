@@ -35,6 +35,7 @@ export const staticProjects: Project[] = [
       'CSS Architecture',
     ],
     repoLink: 'https://github.com/vanriwerson/web-portfolio',
+    prodLink: 'https://vanriwerson.github.io/web-portfolio/',
     thumb: thumbs.webPortfolio,
   },
 ];
