@@ -119,11 +119,43 @@ npm run build
 
 ---
 
-## 🌐 Deploy
+## 🚀 Deploy Automatizado (CI/CD)
 
-O projeto está hospedado via **GitHub Pages**:
+Este projeto utiliza uma **esteira de deploy automatizada com GitHub Actions**, responsável por **buildar e publicar automaticamente** a aplicação no **GitHub Pages** sempre que houver alterações na branch `main`.
 
-🔗 **https://vanriwerson.github.io/web-portfolio/**
+### 🧱 Visão Geral da Esteira
+
+O fluxo de deploy segue os seguintes passos:
+
+1. **Disparo automático**
+
+   - O workflow é executado a cada `push` na branch `main`.
+
+2. **Instalação e build**
+
+   - Instala as dependências do projeto.
+   - Executa o build de produção utilizando **Vite**.
+
+3. **Publicação**
+   - O conteúdo gerado na pasta `dist/` é publicado automaticamente no **GitHub Pages**.
+     🔗 _[**Veja o projeto no ar!**](https://vanriwerson.github.io/web-portfolio/)_
+
+---
+
+### ⚙️ Workflow de Deploy
+
+O arquivo de configuração está localizado em:
+
+```
+.github/workflows/deploy.yml
+```
+
+Ele utiliza ações oficiais do GitHub para:
+
+- checkout do código
+- configuração do Node.js
+- build da aplicação
+- deploy no GitHub Pages
 
 ---
 
