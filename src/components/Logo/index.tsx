@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Logo() {
   return (
-    <a href="/" className="logo-container">
+    <a href="#home" className="logo-container">
       <img
         className="logo"
         src={logos.light}

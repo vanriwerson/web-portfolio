@@ -4,6 +4,7 @@
 
 .logo-container {
   align-items: center;
+  color: var(--main-txt);
   display: flex;
   justify-content: center;
   margin: 8px;
