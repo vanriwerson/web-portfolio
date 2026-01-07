@@ -1,10 +1,11 @@
 import { ProjectCard, SectionTitle } from '../../components';
 import { useLanguage } from '../../hooks';
-import { staticProjects } from '../../services/data';
+import { useProjects } from '../../hooks/useProjects';
 import './style.css';
 
 export default function ProjectsSection() {
   const { translate } = useLanguage();
+  const { projects, loading, error } = useProjects();
 
   const paragraphs = translate('projects.content').split(' \n ');
 
@@ -20,8 +21,11 @@ export default function ProjectsSection() {
         ))}
       </div>
 
+      {loading && <p>Carregando projetos...</p>}
+      {error && <p>{error}</p>}
+
       <div className="projects-grid">
-        {staticProjects.map((project) => (
+        {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
