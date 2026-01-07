@@ -1,5 +1,6 @@
 import github from './images/contact/github.png';
 import linkedin from './images/contact/linkedin.png';
+import liveDemo from './images/contact/live-demo.png';
 
 import about from './images/navIcons/about.svg';
 import home from './images/navIcons/home.svg';
@@ -43,6 +44,7 @@ import webPortfolio from './images/projects/web-portfolio.png';
 export const socialNetworks = {
   github,
   linkedin,
+  liveDemo,
 };
 
 export const navIcons = {

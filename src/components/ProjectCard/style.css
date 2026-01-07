@@ -104,6 +104,15 @@
   text-align: left;
 }
 
+.project-meta {
+  align-items: center;
+  display: flex;
+  gap: var(--space-3);
+  width: 100%;
+  justify-content: center;
+}
+
+
 .project-stack {
   display: flex;
   flex-wrap: wrap;
@@ -129,21 +138,4 @@
   display: flex;
   gap: var(--space-3);
   margin-top: var(--space-4);
-}
-
-.project-actions a {
-  background-color: var(--main-txt);
-  background-image: var(--bg-pattern);
-  border-radius: 6px;
-  box-shadow: var(--shadow-light);
-  color: var(--main-bg);
-  font-weight: 600;
-  padding: 4px 8px;
-  text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.project-actions a:hover {
-  background-color: var(--accent);
-  color: var(--main-txt);
 }

@@ -4,12 +4,14 @@ type SocialNetworkButtonProps = {
   anchorLink: string;
   imageSource: string;
   altText: string;
+  title?: string;
 };
 
 export default function SocialNetworkButton({
   anchorLink,
   imageSource,
   altText,
+  title,
 }: SocialNetworkButtonProps) {
   return (
     <a
@@ -17,6 +19,7 @@ export default function SocialNetworkButton({
       href={anchorLink}
       target="_blank"
       rel="noopener noreferrer"
+      title={title || ''}
     >
       <img className="social-network-image" src={imageSource} alt={altText} />
     </a>
