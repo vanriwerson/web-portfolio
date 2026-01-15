@@ -38,4 +38,11 @@ export const staticProjects: Project[] = [
     prodLink: 'https://vanriwerson.github.io/web-portfolio/',
     thumb: thumbs.webPortfolio,
   },
+  {
+    id: 'spent-a-lot',
+    stack: ['React', 'TypeScript', 'Vite', 'PWA', 'CSS Architecture'],
+    repoLink: 'https://github.com/vanriwerson/spent-a-lot',
+    prodLink: 'https://vanriwerson.github.io/spent-a-lot/',
+    thumb: thumbs.spentALot,
+  },
 ];

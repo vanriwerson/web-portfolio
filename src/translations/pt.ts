@@ -80,5 +80,10 @@ export default {
       description:
         'Portfólio pessoal desenvolvido com React e TypeScript. \n Apresenta minha trajetória, habilidades e projetos, focado em arquitetura de front-end, internacionalização e experiência do usuário.',
     },
+    'spent-a-lot': {
+      title: 'SpentALot',
+      description:
+        'Aplicação pessoal de controle de gastos mensais, desenvolvida como um Progressive Web App (PWA). \n Focada em mobile-first, persistência local, arquitetura de front-end organizada e experiência do usuário, com deploy automatizado via GitHub Pages.',
+    },
   },
 };

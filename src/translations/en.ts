@@ -80,5 +80,10 @@ export default {
       description:
         'Personal web portfolio built with React and TypeScript. \n Showcases my background, skills and projects, focusing on front-end architecture, internationalization and user experience.',
     },
+    'spent-a-lot': {
+      title: 'SpentALot',
+      description:
+        'Personal monthly expense tracking application built as a Progressive Web App (PWA). \n Designed with a mobile-first approach, local persistence, well-structured front-end architecture, and a strong focus on user experience, featuring automated deployment via GitHub Pages.',
+    },
   },
 };
